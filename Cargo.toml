@@ -1,6 +1,6 @@
 [package]
 name = "remember-this"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["David Teller <davidt@element.io>"]
 edition = "2018"
 description = "A simple mechanism for caching data to both memory and disk. Uses `tokio`."
@@ -18,7 +18,7 @@ flexbuffers = "0.2"
 log = "0.4"
 serde = { version = "1.0", features = ["rc"] }
 sled = "0.34"
-tokio = { version = "0.3", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
 typed-builder = "0.7"
 
 [build-dependencies]
